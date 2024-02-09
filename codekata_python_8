@@ -1,0 +1,17 @@
+def solution(angle):
+    if 0 < angle < 90:
+        answer = 1
+        
+    elif angle == 90:
+        answer = 2
+        
+    elif 90 < angle < 180:
+        answer = 3
+    
+    elif angle == 180:
+        answer = 4
+        
+    return answer
+
+# 푸는데 오래 걸린 문제
+# 이유 : answer = 1 에서 answer라는 새로운 변수를 넣을 생각을 못했기 때문이다.
