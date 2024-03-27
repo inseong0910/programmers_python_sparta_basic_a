@@ -9,5 +9,5 @@ def solution(n):
             break
     return answer 
 
-# 개인 풀이과정 url 
+# 개인 문제풀이 과정 
 # https://kitsch2023.tistory.com/159
